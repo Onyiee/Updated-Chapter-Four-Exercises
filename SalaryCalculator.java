@@ -9,7 +9,6 @@ package exerciseFourPointTwoZero;
 
 import javax.swing.*;
 
-//REFACTORED
 public class SalaryCalculator {
     private double companyHourlyPay;
     private String employeeName;
@@ -63,39 +62,5 @@ public class SalaryCalculator {
     public double getGrossPayCalculation() {
         return grossPay;
     }
-    //END REFACTORED
-
-//    public static void main(String[] args) {
-//        int hourlyRates;
-//        int numberOfHoursWorked;
-//        double grossPay = 0;
-//
-//        Scanner input = new Scanner(System.in);
-//        System.out.println("Enter number of hours worked: ");
-//        numberOfHoursWorked = input.nextInt();
-//        System.out.println("Enter hourly rates : ");
-//        hourlyRates = input.nextInt();
-//
-//        for (int counter = 1; counter <= 3;  counter++){
-//            if (numberOfHoursWorked <= 40){
-//                grossPay = numberOfHoursWorked * hourlyRates;
-//                System.out.printf("gross pay for employee is %f%n ", grossPay);
-//            }else {
-//                grossPay = 1.5 * (numberOfHoursWorked * (double)hourlyRates);
-//                System.out.printf("gross pay for employee is %f%n ", grossPay);
-//
-//                System.out.println("Enter number of hours worked: ");
-//                numberOfHoursWorked = input.nextInt();
-//                System.out.println("Enter hourly rates : ");
-//                hourlyRates = input.nextInt();
-//
-//
-//            }
-//        }
-//
-//}
-
-
-
 
 }
